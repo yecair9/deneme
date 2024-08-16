@@ -1,33 +1,37 @@
 <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container">
   <div class="tradingview-widget-container__widget"></div>
-  <div class="tradingview-widget-copyright"><a href="https://tr.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Tüm piyasaları TradingView üzerinden takip edin</span></a></div>
+  <div class="tradingview-widget-copyright"><a href="https://tr.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text"> </span></a></div>
   <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
   {
   "symbols": [
     {
-      "proName": "FOREXCOM:SPXUSD",
-      "title": "S&P 500 Index"
+      "description": "DXY",
+      "proName": "CAPITALCOM:DXY"
     },
     {
-      "proName": "FOREXCOM:NSXUSD",
-      "title": "US 100 Cash CFD"
+      "description": "EUR/USD",
+      "proName": "OANDA:EURUSD"
     },
     {
-      "proName": "FX_IDC:EURUSD",
-      "title": "EUR to USD"
+      "description": "GBP/USD",
+      "proName": "OANDA:GBPUSD"
     },
     {
-      "proName": "BITSTAMP:BTCUSD",
-      "title": "Bitcoin"
+      "description": "XAU/USD",
+      "proName": "OANDA:XAUUSD"
     },
     {
-      "proName": "BITSTAMP:ETHUSD",
-      "title": "Ethereum"
+      "description": "BTC/USDT",
+      "proName": "BINANCE:BTCUSDT"
+    },
+    {
+      "description": "ETH/USDT",
+      "proName": "BINANCE:ETHUSDT"
     }
   ],
   "showSymbolLogo": true,
-  "isTransparent": false,
+  "isTransparent": true,
   "displayMode": "adaptive",
   "colorTheme": "dark",
   "locale": "tr"
